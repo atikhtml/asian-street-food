@@ -1,0 +1,116 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: justify;
+}
+
+section {
+  margin: 20px;
+}
+
+header {
+  background: greenyellow;
+}
+
+.logo {
+  float: left;
+  max-height: 200px;
+  width: auto;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+nav {
+  float: right;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: #00c130;
+}
+
+h2 {
+  text-align: center;
+  font-size: 75px;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("https://bundobust.com/wp-content/uploads/2023/04/BUNDO-DISHES-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.about-website {
+  text-align: justify;
+}
+
+ul a:hover {
+  border-bottom: 2px solid red;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.all-buttons {
+  overflow: hidden;
+}
+
+.all-buttons a:active {
+  background-color: #04aa6d;
+}
+
+li {
+  float: left;
+}
+
+nav a {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+section {
+  background-color: #00a4bd;
+  border: 2px solid #00a4bd;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+img {
+  max-width: 25%;
+  max-height: 15%;
+  float: left;
+}
+
+section {
+  text-align: right;
+  float: right;
+  justify-content: right;
+}
+
+iframe {
+  border: 0px;
+}
